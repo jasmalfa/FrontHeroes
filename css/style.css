@@ -1,179 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.visual{
+    margin: 1rem;
     font-family: 'Roboto', sans-serif;
-}
-.descuento{
-    background-color: #1CD1B0;
-    padding: .2rem 1rem;
-    width: 90rem;
-}
-.logo{
-    background-color: #00669F;
-    display: flex;
-    height: 5rem;
-    align-items: center;
     font-weight: 400;
-    color: #FFFFFF;
-    width: 90rem;
 }
-.imglogo{
-    height: 80%;
+.descuentos{
+width: 100%;
+background-color: #D1891C;
 }
-.menu{
-    background-color: #001D2D;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    height: 2.5rem;
-    justify-content: flex-end;
-    width: 90rem;
+.tdescuentos{
+    padding: 0.2rem 0rem 0.2rem 1.5rem;
+    font-size: 1rem;
 }
-.navmenu{
-    display: flex;
-    list-style-type: none;
-    width: 16rem;
-    justify-content: space-around;
-}
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90rem;
-    height: 57rem;
-}
-.principal{
+.card{
     background-color: #00669F;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, .4);
     color: #FFFFFF;
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 60rem;
-    height: 52rem;
-    border-radius: 5%;
-    padding: 1rem 7rem;
-    line-height: 1.5rem;
+    width: 100%;
 }
 .titulo{
-    width: 100%;
-    text-align: center;
-    font-weight: 700;
-    font-size: 2.5rem;
-    padding-top: 1rem;
+    font-size: 2rem;
+    padding: 0.2rem 0rem 0.2rem 1.5rem;
 }
-.titulo2{
-    font-weight: 300;
-    padding: 1.5rem;
-}
-.formulario{
+.main{
+    margin: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 45rem;
-    width: 100%;
-    align-content: flex-start;
 }
-.nombre, .especie, .fecha, .foto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.heroe{
+    position: relative;
     width: 20rem;
-    height: 7rem;
+    height: 36rem;
+    margin: 1rem auto;
+    background-color: #F3F3F3;
+    z-index: 0;
 }
-.inombre, .sespecie, .ifecha{
-    width: 21rem;
-    height: 4rem;
-    border-radius: 8px;
-    color: rgba(0, 0, 0, .6);
+.fondoB{
+    background-image: url(../img/fbatman.png);
+    width: 20rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
-.ifoto{
-    color: #000000;
+.corazon{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 2rem;
+}
+.img{
+    position: absolute;
+    width: 6rem;
+    left: 35%;
+    top: 7rem;
+    border-radius: 10rem;
+}
+.titulo2{
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    text-transform: uppercase;
 }
 .descripcion{
-    width: 20rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.5rem;
+    position: relative;
+    top: 3rem;
 }
-.idescripcion{
-    width: 21rem;
-    height: 19rem;
-    border-radius:10px;
+.mas{
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    left: 30%;
+    margin-bottom: 2rem;
     margin-top: 1rem;
-    color: rgba(0, 0, 0, .6);
+    width: 8rem;
+    height: 3rem;
+    color: #FFFFFF;
+    background-color: #00669F;
 }
-.poder-tipo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.fondoM{
+    background-image: url(../img/fmaravilla.png);
     width: 20rem;
-    height: 19rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
-.poderes, .tipo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    line-height: 2rem;
+.fondoS{
+    background-image: url(../img/fsuperman.png);
+    width: 20rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
-.check, .radio{
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-right: 1rem;
+.titulo2-1{
+    text-align: center;
+    position: relative;
+    top: 3rem;
 }
-.botonC{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.boton{
-    width: 29rem;
-    height: 5.5rem;
-    margin: 1.5rem;
-    background-color: #1CD1B0;
-    font-weight: 700;
-    font-size: 2.5rem;
-    border-radius: 1rem;
+.fondoH{
+    background-image: url(../img/fharley.png);
+    width: 20rem;
+    height: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .pie{
     background-color: #00669F;
-    color: #FFFFFF;
+    width: 100%;
+    height: 2rem;
     display: flex;
-    width: 90rem;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.derechos{
+    font-size: .8rem;
+    color: #F3F3F3;
+}
+#git{
+    color: #F3F3F3;
+    position: absolute;
+    right: 1rem;
+}
+.plus{
+    width: 4rem;
     height: 4rem;
-    font-weight: 400;
+    border-radius: 10rem;
+    background-color: #00669F;
+    font-size: 1.5rem;
+    color: #F3F3F3;
 }
-input:focus{
-    background-color: orange;
+.prueba{
+    position: relative;
 }
-input[type="text"] {
-    border:2px solid red;
+.lplus{
+    position: fixed;
+    top:50vh;
+    right: 2vw;
+    z-index: 1;
 }
-input:disabled{
-    border: 2px solid black;
-    background-color: black;
-    opacity:50%
+@media(min-width:480px){
+    .visual{
+        background-color: white;
+    }
 }
-input[type="checkbox"]{
-    border: 2px solid blue;
-    width: 2rem;
-    height: 2rem;
-}
-.boton:hover{
-    background-color: red;
-}
-div div label:nth-child(2){
-    background-color: #1CD1B0;
-}
-:checked {
-    margin-left: 25px;
-    border: 1px solid red;
-}
-label::before{
-    content: "***";
+@media(min-width:768px){
+        .visual{
+        background-color: red;
+    }
 }
